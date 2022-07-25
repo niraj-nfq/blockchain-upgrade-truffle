@@ -1,4 +1,3 @@
-// migrations/MM_upgrade_box_contract.js
 const { upgradeProxy } = require('@openzeppelin/truffle-upgrades');
 
 const Pizza = artifacts.require('Pizza');
