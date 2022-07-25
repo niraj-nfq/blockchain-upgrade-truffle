@@ -34,7 +34,7 @@ module.exports = {
     kovan: {
       provider: ()=>{ return new HDWalletProvider("YOUR-MNEMONIC",`https://kovan.infura.io/v3/<YOUR_INFURA_KEY>`)
       },
-      network_id: '42',
+      network_id: '42', // Replace this with your network id
       gas: 4465030,
       gasPrice: 10000000000,
     }
