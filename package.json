@@ -1,0 +1,22 @@
+{
+  "name": "uups-upgrade-truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.15.0",
+    "@truffle/hdwallet-provider": "^2.0.12",
+    "truffle": "^5.5.23"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@openzeppelin/contracts-upgradeable": "^4.7.1",
+    "@openzeppelin/hardhat-upgrades": "^1.19.0",
+    "dotenv": "^16.0.1"
+  }
+}
