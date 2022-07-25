@@ -4,7 +4,7 @@ pragma solidity ^0.8.15;
 contract PizzaV2 {
     uint256 public slices;
 
-    // Emitted when the stored value is changes
+    // Emitted when the stored value is changed
     event ValueChanged(uint256 value);
 
     function store(uint256 _sliceCount) public {
